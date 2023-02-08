@@ -1,0 +1,23 @@
+{
+    "name": "",
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "4gb"
+    },
+    // ubuntu LTS latest
+    // https://github.com/devcontainers/images/tree/main/src/base-ubuntu
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu", // ubuntu LTS latest
+    "onCreateCommand": "bash .devcontainer/install.sh",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode" // linter
+                //   "James-Yu.latex-workshop", // latex utilities
+                //   "emeraldwalk.RunOnSave" // run shell script on save file 
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-from-docker": {}
+    }
+}
