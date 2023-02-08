@@ -11,8 +11,11 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "github.copilot",
+                "github.copilot-labs",
+                // "gencay.vscode-chatgpt", // chatGPT
                 "esbenp.prettier-vscode" // linter
-                //   "James-Yu.latex-workshop", // latex utilities
+                //   "James-Yu.latex-workshop", // latex utilities, view pdf in vscode
                 //   "emeraldwalk.RunOnSave" // run shell script on save file 
             ]
         }
