@@ -1,7 +1,7 @@
 {
     "name": "",
     "hostRequirements": {
-        "cpus": 2,
+        "cpus": 2, 
         "memory": "4gb"
     },
     // ubuntu LTS latest
