@@ -19,6 +19,7 @@
         }
     },
     "features": {
-//         "ghcr.io/devcontainers/features/docker-from-docker": {}
+      //"ghcr.io/devcontainers/features/docker-from-docker": {}
+      "ghcr.io/devcontainers/features/desktop-lite:1": {}
     }
 }
