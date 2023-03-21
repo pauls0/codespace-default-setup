@@ -11,10 +11,11 @@
             "extensions": [
                 "github.copilot",
                 "github.copilot-labs",
-                // "gencay.vscode-chatgpt", // chatGPT
-                "esbenp.prettier-vscode" // linter
+                "gencay.vscode-chatgpt", // chatGPT
+                "esbenp.prettier-vscode", // linter
+                "jebbs.plantuml" // plantuml preview
                 //   "James-Yu.latex-workshop", // latex utilities, view pdf in vscode
-                //   "emeraldwalk.RunOnSave" // run shell script on save file 
+                //   "emeraldwalk.RunOnSave" // run shell script on save file
             ]
         }
     },
